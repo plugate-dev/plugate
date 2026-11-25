@@ -1,0 +1,11 @@
+name: Idea
+description: Something to add to Plugate, or to change in it.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: The idea
+      description: What you would like Plugate to do, and what it would save you.
+    validations:
+      required: true

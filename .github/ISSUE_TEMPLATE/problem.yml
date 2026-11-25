@@ -1,0 +1,11 @@
+name: Problem
+description: Something in Plugate failed, or did not do what it said.
+labels: [bug]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened
+      description: What you did, what Plugate did instead, and the versions of Plugate, your agent and macOS.
+    validations:
+      required: true
